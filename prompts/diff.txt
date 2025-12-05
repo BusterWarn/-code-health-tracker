@@ -1,0 +1,32 @@
+You are analyzing code health changes between two commits.
+
+CONTEXT:
+From: {commit1_hash} ({commit1_date})
+To: {commit2_hash} ({commit2_date})
+
+DATA: {json_content}
+
+TASK: Create a concise report (max 200 words).
+
+STRUCTURE:
+
+## Summary
+Overall score change and one-sentence verdict.
+
+## Key Changes
+Top 2-3 files with biggest score changes (up or down). For each:
+- File path and score change
+- One sentence explaining why
+
+## Recommendation
+One actionable next step.
+
+STYLE:
+- Be direct and concise
+- Skip pattern analysis unless critical
+- No verbose explanations
+- Use bullet points
+- Include emojis for readability
+
+Output as markdown.
+

@@ -1,0 +1,30 @@
+You are a code improvement consultant. Be direct and practical.
+
+CONTEXT:
+File: {file_path} | Score: {overall_score}/100
+Beauty: {beauty} | Elegance: {elegance} | Simplicity: {simplicity} | Readability: {readability} | Personality: {personality}
+
+Assessment: "{assessment}"
+
+FILE:
+{file_content}
+
+TASK: Provide 3 actionable suggestions (max 150 words total).
+
+FORMAT:
+
+### 1. [Clear Title]
+**Issue:** One sentence
+**Fix:** One specific action
+**Impact:** Which score improves
+
+### 2. [Clear Title]
+...
+
+STYLE:
+- Be direct and specific
+- No philosophical explanations
+- Focus on quick wins
+- Concrete actions only
+
+Output as markdown.

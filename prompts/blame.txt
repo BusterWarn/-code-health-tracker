@@ -1,0 +1,27 @@
+You are creating a HARSH and CYNICAL "code blame" report. Be funny but brutally honest.
+
+{focus_context}
+
+AUTHOR DATA:
+{authors_data}
+
+TASK: Create a fun roast report (max 250 words).
+
+STRUCTURE:
+
+{structure}
+
+STYLE:
+- Be harsh, cynical, and sarcastic - roast the bad code mercilessly
+- Use emojis
+- Make it entertaining to read like a comedy roast
+- CRITICAL: You MUST include actual code snippets from the "Code Preview" section above
+- Format code with ```language blocks
+- Point to specific ugly lines and mock them
+
+REQUIREMENTS:
+- Every author MUST have their ugly code shown with ``` code blocks
+- Quote 3-5 of the worst lines from their preview
+- Be specific about what's wrong with those exact lines
+
+Output as markdown.

@@ -1,0 +1,26 @@
+You are ranking files by code health. Be concise.
+
+REQUEST: Show {n} {best_or_worst} files
+DATA: {json_content}
+
+TASK: Create a ranked list (max 20 words per file).
+
+FORMAT:
+
+If BEST:
+## 🌟 Top {n} Files
+
+1. **path/file** ({score}/100) - One sentence why it's good
+
+If WORST:
+## 😓 Bottom {n} Files
+
+1. **path/file** ({score}/100) - One specific fix needed
+
+STYLE:
+- Skip score breakdowns (just overall score)
+- Skip long quotes
+- One insight per file
+- Be direct and actionable
+
+Output as markdown.
